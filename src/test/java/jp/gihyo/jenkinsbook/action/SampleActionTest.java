@@ -61,7 +61,7 @@ public class SampleActionTest {
 
 		assertEquals(false, result);
 	}
-	
+
 	@Test
 	public void testCheckError3() {
 		SampleAction action = new SampleAction();
@@ -75,6 +75,15 @@ public class SampleActionTest {
 
 		assertEquals(false, result);
 	}
+
+	@Test
+	public void testCheckError4() {
+		SampleAction action = new SampleAction();
+		SampleAction request = action.createAction("hello");
+
+		assertNull(request);
+	}
+
 
 	@Test
 	public void testExecuteNormal() {
