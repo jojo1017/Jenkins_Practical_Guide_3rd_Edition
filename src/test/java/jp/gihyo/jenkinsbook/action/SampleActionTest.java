@@ -79,7 +79,7 @@ public class SampleActionTest {
 	@Test
 	public void testCheckError4() {
 		SampleAction action = new SampleAction();
-		SampleAction result = action.createAction("hello");
+		SampleAction result = action.createAction("hello is");
 		assertNull(result);
 	}
 
