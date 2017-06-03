@@ -70,7 +70,7 @@ public class SampleAction {
     }
 
 
-    public boolean isHello(final String name) {
+    public final boolean isHello(final String name) {
 
         if ("hello".equals(name)) {
             return true
