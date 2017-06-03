@@ -75,16 +75,14 @@ public class SampleActionTest {
 
 		assertEquals(false, result);
 	}
-/*
+
 	@Test
 	public void testCheckError4() {
 		SampleAction action = new SampleAction();
-		boolean result = action.isHello("hello");
-
-		aassertEquals(false, result);
+		SampleAction result = action.createAction("hello");
+		aassertNull(result);
 	}
 
-*/
 	@Test
 	public void testExecuteNormal() {
 		SampleAction action = new SampleAction("firstName", "lastName");
