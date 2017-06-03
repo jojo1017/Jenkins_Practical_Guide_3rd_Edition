@@ -70,8 +70,7 @@ public class SampleAction {
     }
 
 
-   /*
-    private boolean isHello(final String name) {
+    public boolean isHello(final String name) {
 
         if ("hello".equals(name)) {
             return true
@@ -80,4 +79,4 @@ public class SampleAction {
         }
     }
 
-*/}
+ }
