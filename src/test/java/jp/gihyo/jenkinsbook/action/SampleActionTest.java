@@ -79,9 +79,9 @@ public class SampleActionTest {
 	@Test
 	public void testCheckError4() {
 		SampleAction action = new SampleAction();
-		SampleAction request = action.createAction("hello");
+		boolean result = action.isHello("hello kuma");
 
-		assertNull(request);
+		aassertEquals(false, result);
 	}
 
 
