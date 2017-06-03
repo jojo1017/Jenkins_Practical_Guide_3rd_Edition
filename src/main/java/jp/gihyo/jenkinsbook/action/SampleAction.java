@@ -12,11 +12,11 @@ public class SampleAction {
     /**
      * First name of the user.
      */
-    private String fstName;
+    private String firstName;
     /**
      * Last name of the user.
      */
-    private String lstName;
+    private String lastName;
 
     /**
      * Constructor of SampleAction.
