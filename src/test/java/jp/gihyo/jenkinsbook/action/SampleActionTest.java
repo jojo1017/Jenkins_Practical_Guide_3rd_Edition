@@ -82,7 +82,12 @@ public class SampleActionTest {
 		SampleAction result = action.createAction("hello is");
 		assertNull(result);
 	}
-
+	@Test
+	public void testCheckError5() {
+		SampleAction action = new SampleAction();
+		SampleAction result = action.createAction("hello");
+		assertNotNull(result);
+	}
 	@Test
 	public void testExecuteNormal() {
 		SampleAction action = new SampleAction("firstName", "lastName");
