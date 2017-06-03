@@ -99,4 +99,5 @@ public class SampleActionTest {
 
 		assertTrue("./WEB-INF/result.jsp".equals(result));
 	}
+	
 }
