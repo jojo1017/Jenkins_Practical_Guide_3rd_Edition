@@ -69,14 +69,18 @@ public class SampleAction {
         return "./WEB-INF/result.jsp";
     }
 
+    /**
+     * Execute action.
+     * @param request word
+     * @return result is hello?
+     */
+    public final boolean isHello(final String name) {
 
-//    public final boolean isHello(final String name) {
-//
-//        if ("hello".equals(name)) {
-//            return true
-//        } else {
-//            return false;
-//        }
-//    }
+        if ("hello".equals(name)) {
+            return true
+        } else {
+            return false;
+        }
+    }
 
  }
