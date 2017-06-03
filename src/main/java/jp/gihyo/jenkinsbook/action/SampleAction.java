@@ -70,16 +70,16 @@ public class SampleAction {
     }
 
     /**
-     * Execute action.
-     * @param name word
-     * @return result is hello?
+     * Decide the action.
+     * @param name the action name
+     * @return selected action by the action name
      */
-    public final boolean isHello(final String name) {
+    private SampleAction createAction(final String name) {
 
         if ("hello".equals(name)) {
-            return true
+            return new SampleAction();
         } else {
-            return false;
+            return null;
         }
     }
 
