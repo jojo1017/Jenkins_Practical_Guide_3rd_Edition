@@ -74,7 +74,7 @@ public class SampleAction {
      * @param name the action name
      * @return selected action by the action name
      */
-    public final SampleAction createAction(final String name) {
+    public final boolean createAction(final String name) {
 
         if ("hello".equals(name)) {
             return new SampleAction();
