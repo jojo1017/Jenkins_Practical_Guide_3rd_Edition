@@ -80,7 +80,6 @@ public class SampleActionTest {
 	public void testCheckError4() {
 		SampleAction action = new SampleAction();
 		boolean result = action.isHello("hello kuma");
-
 		aassertEquals(false, result);
 	}
 
