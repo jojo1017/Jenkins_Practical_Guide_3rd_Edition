@@ -74,14 +74,13 @@ public class SampleAction {
      * @param name the action name
      * @return selected action by the action name
      */
-    private boolean createAction(final String name) {
+    private SampleAction createAction(final String name) {
 
         if ("hello".equals(name)) {
-            return true
+            return new SampleAction();
         } else {
-            return false;
+            return null;
         }
-        return true;
     }
 
  }
