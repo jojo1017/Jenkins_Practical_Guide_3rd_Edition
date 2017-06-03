@@ -69,6 +69,8 @@ public class SampleAction {
         return "./WEB-INF/result.jsp";
     }
 
+
+   /*
     private boolean isHello(final String name) {
 
         if ("hello".equals(name)) {
@@ -77,4 +79,5 @@ public class SampleAction {
             return false;
         }
     }
-}
+
+*/}
