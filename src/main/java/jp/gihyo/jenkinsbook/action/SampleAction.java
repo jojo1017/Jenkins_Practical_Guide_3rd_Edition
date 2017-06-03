@@ -71,7 +71,7 @@ public class SampleAction {
 
     /**
      * Execute action.
-     * @param request word
+     * @param name word
      * @return result is hello?
      */
     public final boolean isHello(final String name) {
