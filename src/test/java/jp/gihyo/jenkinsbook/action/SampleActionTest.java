@@ -84,7 +84,7 @@ public class SampleActionTest {
 		aassertEquals(false, result);
 	}
 
-*/ss
+*/
 	@Test
 	public void testExecuteNormal() {
 		SampleAction action = new SampleAction("firstName", "lastName");
